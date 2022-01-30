@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+.main-component {
+	display: flex;
+	justify-content: center;
+	background-color: $veryDarkBlue;
+	// height: 100%;
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+}

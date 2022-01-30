@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+
+// @media (min-width: 768px) and (max-width: 1440px) {
+.card-item-wrapper {
+	margin: 15px;
+	width: 150px;
+}
+.card-item-color {
+	width: 150px;
+	height: 25px;
+	background-color: $lightRedWork;
+	background-image: url('../../images/icon-work.svg');
+	border-radius: 15px 15px 0 0;
+	z-index: 2;
+}
+.card-item {
+	display: flex;
+	flex-direction: column;
+	border-radius: 0 0 15px 15px;
+	padding-left: 10px;
+	text-align: left;
+
+	background-color: $darkBlue;
+	color: $paleBlue;
+}
+.card-itrm_card-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-top: -10px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+.card-itrm_card {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+}
+.card-itrm_card-header {
+	@include font-size-weight-header;
+}
+.card-itrm_card-p {
+	padding: 10px 0;
+	@include font-size-weight-p;
+}
+// }
+
+// @media (min-width: 375px) and (max-width: 1440px) {
+// }
+//

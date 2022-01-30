@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.profile-links-component {
+	display: flex;
+	// position: absolute;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	flex-wrap: nowrap;
+	z-index: 2;
+}

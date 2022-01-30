@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.profile-component {
+	width: 100px;
+	height: 100px;
+	background-color: $Blue;
+	text-align: left;
+	padding: 20px 0 20px 20px;
+	border-radius: 15px;
+	margin-left: 50px;
+	padding-bottom: 50px;
+	color: $paleBlue;
+}
+.profile-component_p {
+	@include font-size-weight-p;
+	padding-top: 10px;
+}
+.profile-component_header {
+	@include font-size-weight-header;
+	padding-top: 8px;
+}
